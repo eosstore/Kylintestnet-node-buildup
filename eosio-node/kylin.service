@@ -3,7 +3,7 @@ Description=root
 
 [Service]
 User=root
-ExecStart=/bin/bash -c "/usr/local/eosio/bin/nodeos --config-dir /root/Kylintestnet-node-buildup/eosio-node/eos-config -d /root/Kylintestnet-node-buildup/eosio-node/eos-data > /root/Kylintestnet-node-buildup/eosio-node/eosio.log  2>&1"
+ExecStart=/bin/bash -c "/usr/local/eosio/bin/nodeos --config-dir /root/Kylintestnet-node-buildup/eosio-node/eos-config -d /root/Kylintestnet-node-buildup/eosio-node/eos-data > /root/Kylintestnet-node-buildup/eosio-node/kylin.log  2>&1"
 Restart=always
 
 [Install]
