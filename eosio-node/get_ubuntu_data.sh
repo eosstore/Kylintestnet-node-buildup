@@ -1,7 +1,7 @@
 
 cd eos-data/
 
-#wget $1
+wget $1
 
 data=$1
 data_name=${data##*/} 
