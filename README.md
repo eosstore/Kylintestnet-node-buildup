@@ -26,11 +26,11 @@ git clone https://github.com/eosstore/Kylintestnet-node-buildup.git
 
 ##4.用部署systemctl服务，并且启动eosio程序##
 
-./set_eosioservice.sh
+./set_kylinservice.sh
 
-systemctl start eosio.service
-注意：代码下载路径默认是/root，当前的路径是/root/Kylintestnet-node-buildup/eosio-node/,如果路径不正确，需要自己修改eosio.service中的nodeos启动路径。
+systemctl start kylin.service
+注意：代码下载路径默认是/root，当前的路径是/root/Kylintestnet-node-buildup/eosio-node/,如果路径不正确，需要自己修改kylin.service中的nodeos启动路径。
 
 ##5.查看log##
 
-tail -f eosio.log
+tail -f kylin.log
